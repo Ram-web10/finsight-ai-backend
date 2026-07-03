@@ -53,3 +53,10 @@ def aggregate_sentiment(news_list: List[Dict]) -> Dict:
         "average_score": round(avg, 3),
         "details": results
     }
+
+import nltk
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
