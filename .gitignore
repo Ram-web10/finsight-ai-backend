@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+
+uploads/
+temp/
+
+analysis_result.xlsx
+*.xlsx
+
+*.pdf
