@@ -35,7 +35,7 @@ app.include_router(full_analysis_router)
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://your-app.vercel.app"  # CHANGE THIS AFTER DEPLOY
+    "https://finsight-ai-frontend-seven.vercel.app",
 ]
 
 app.add_middleware(
